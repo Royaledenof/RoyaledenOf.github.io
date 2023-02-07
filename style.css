@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #2e6b34;
+    position: fixed;
+    width:100%;
+    z-index: 100%;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 30px;
+}
+ 
+.logo{
+    text-decoration: none;
+    color: #ede0c1;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+ 
+.navbar a:hover {
+    background: #ede0c1; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(WhatsApp\ Image\ 2023-01-13\ at\ 14.45.53.jpeg) no-repeat center;
+    background-size: cover;
+
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 70;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ede0c1;
+    color: #ffffff;
+    text-decoration: none;
+    background: #ede0c1;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #ede0c1;
+}
+
+.box-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container.box {
+    height: 11rem;
+    width: 17rem;
+    background: #000000;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: #ede0c1;
+    margin: 2rem;
+}
+
+.box-container.box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ede0c1;
+    background:#ede0c1;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size:20px;
+    color:#ede0c1
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    background: #ede0c1
+}
+
+.price {
+    background: url(Adam_et_Ève_au_Paradis_Terrestre.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20xp;
+    background: #ede0c1;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+
+    }
+    .sau {
+        height: 120vh;
+    }
+    
+    .navbar {
+
+        display:none;
+    }
+}
